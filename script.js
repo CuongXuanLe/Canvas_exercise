@@ -50,7 +50,7 @@ window.onload = function () {
 
   function drawHouse(x, y) {
     ctx.fillStyle = "yellow";
-    ctx.fillRect(x, y, 100, 100); // Body của nhà
+    ctx.fillRect(x, y, 100, 100);
 
     ctx.beginPath();
     ctx.moveTo(x, y);
@@ -64,8 +64,8 @@ window.onload = function () {
     ctx.fillRect(x + 35, y + 50, 30, 50);
 
     ctx.fillStyle = "lightblue";
-    ctx.fillRect(x + 10, y + 10, 25, 25); // Cửa sổ trái
-    ctx.fillRect(x + 65, y + 10, 25, 25); // Cửa sổ phải
+    ctx.fillRect(x + 10, y + 10, 25, 25);
+    ctx.fillRect(x + 65, y + 10, 25, 25);
   }
 
   drawHouse(500, 400);
